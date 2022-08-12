@@ -1,4 +1,4 @@
-import { Icon } from "./Style";
+import { Icon } from "./MainStyle";
 import { useEffect, useRef } from "react";
 
 

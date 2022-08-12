@@ -1,0 +1,14 @@
+.MainPage{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    justify-content: space-around;
+}
+
+#MainPhoto{
+    width: 300px;
+}
+
+#MainPageLeft{
+    width: 70%;
+}
