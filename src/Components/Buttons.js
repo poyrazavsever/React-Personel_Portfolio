@@ -12,10 +12,13 @@ export const Btn = styled.button`
     padding:4px 8px;
     transition:all .3s;
     margin: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:hover{
-        ${props => props.theme == "primary" ? `background-color:#5614A6` : `background-color:#7F5B9F` }
+        ${props => props.theme === "primary" ? `background-color:#5614A6` : `background-color:#7F5B9F` }
     }
 
-    ${props => props.theme == "primary" ? `background-color:#812EE6;` : `background-color:#9E88B2;` }
+    ${props => props.theme === "primary" ? `background-color:#812EE6;` : `background-color:#9E88B2;` }
 `

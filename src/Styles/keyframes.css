@@ -1,0 +1,12 @@
+
+
+
+@keyframes MPAnimation{
+    from{
+        transform: translateY(700px);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}

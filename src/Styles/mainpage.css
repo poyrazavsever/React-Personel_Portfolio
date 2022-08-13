@@ -3,6 +3,9 @@
     align-items: center;
     height: 80vh;
     justify-content: space-around;
+    animation: MPAnimation 1.2s forwards;
+    transform: translateY(700px);
+    z-index: -10;
 }
 
 #MainPhoto{
@@ -11,4 +14,29 @@
 
 #MainPageLeft{
     width: 70%;
+}
+
+
+.social-media{
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 4rem;
+    height: 100vh;
+    margin: auto;
+    position: fixed;
+    z-index: 5;
+}
+
+.social-item{
+    transition: all .4s;
+    margin: .4rem 0;
+    display: inline-block;
+    padding: .5rem;
+}
+
+.social-item:hover{
+    transform: translateX(-10px);
 }

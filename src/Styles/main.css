@@ -3,12 +3,17 @@
 
 @import url(mainpage.css);
 @import url(navbar.css);
+@import url(keyframes.css);
 
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 :root {
