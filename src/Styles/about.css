@@ -1,0 +1,29 @@
+
+.About-Left{
+    margin-left: 2rem;
+}
+
+.about-list{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.about-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.about-icon{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.ai-right{
+    display: inline-block;
+}

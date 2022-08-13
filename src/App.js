@@ -7,10 +7,14 @@ import About from "./Components/About/About";
 function App() {
   return (
     <>
-      <SocialMedia /> 
-      <Navbar />
+      <SocialMedia />
+
       <Mainpage />
+      
       <About />
+ 
+      <Navbar />
+     
 
     </>
   );

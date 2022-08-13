@@ -15,6 +15,8 @@ function About() {
         </FlexContainer>
         
 
+        <br /><br /><br /><br /><br /><br /><br /><br />
+
     </section>
   )
 }

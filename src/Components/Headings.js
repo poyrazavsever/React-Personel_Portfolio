@@ -21,6 +21,16 @@ export const Midh1 = styled.h1`
 `
 
 
+// H4 Design System
+
+export const Midh4 = styled.h4`
+
+    font-size: 25px;
+    font-weight: 500;
+    color: ${props => props.color === "purple" ? "#812EE6" : "black"};
+`
+
+
 
 // H5 Design System
 

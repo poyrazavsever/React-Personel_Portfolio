@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutItem from './AboutItem'
 import { Icon } from "../MainStyle"
 
 function AboutRight() {
@@ -7,17 +8,16 @@ function AboutRight() {
         
         <ul className="about-list">
 
-            <li className="about-item">
-                <Icon src="İcon-Set/comment-question.svg" />
-            </li>
+            <AboutItem icon="İcon-Set/comment-question.svg" title="Who am I?" text="
+            I'm Poyraz Avsever. I am 16 years old. I am studying at a science high school. My hobbies are mainly about computers. Apart from that, I like playing computer games, football and listening to music."/>
 
-            <li className="about-item">
-                <Icon src="İcon-Set/comment-code.svg" />
-            </li>
+            <AboutItem icon="İcon-Set/comment-code.svg"
+            title="Who am I?" text="
+            I'm Poyraz Avsever. I am 16 years old. I am studying at a science high school. My hobbies are mainly about computers. Apart from that, I like playing computer games, football and listening to music."/>
 
-            <li className="about-item">
-                <Icon src="İcon-Set/target.svg" />
-            </li>
+            <AboutItem icon="İcon-Set/target.svg"
+            title="Who am I?" text="
+            I'm Poyraz Avsever. I am 16 years old. I am studying at a science high school. My hobbies are mainly about computers. Apart from that, I like playing computer games, football and listening to music."/>
 
         </ul>
 

@@ -11,6 +11,7 @@ export const BtnIcon = styled.img`
 export const FlexContainer = styled.div`
 
     width: 964px;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items:center

@@ -7,17 +7,6 @@ function Navbar() {
     const list = useRef()
     
     useEffect(() => {
-        list.current.childNodes.forEach(item => {
-          item.tagName === "LI" && 
-            item.addEventListener("click", (e) => {
-              let li = Object.values(e.path).find(el => el.tagName ==="LI")
-              li.parentNode.childNodes.forEach(element => {
-                element.classList.remove("active")
-              })
-              li.classList.add("active")
-          })
-        })
-
 
         let id = window.location.href.split("/").at(-1)
         
@@ -39,14 +28,15 @@ function Navbar() {
         })
       })
 
-     
-      
 
     return (
 
         <div className="nav-bar">
             <nav className="navigation">
-                <img src="Svg/Main-Logo-sm.svg" alt="Main-Logo" className="mainLogo"/>
+                <a href="#">
+                    <img src="Svg/Main-Logo-sm.svg" alt="Main-Logo" className="mainLogo"/>
+                </a>
+
                 <ul ref={list}>
                     <li className="list active">
                         <a href="#mainpage">

@@ -1,10 +1,10 @@
 .MainPage{
     display: flex;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
+    margin: auto;
     justify-content: space-around;
-    animation: MPAnimation 1.2s forwards;
-    transform: translateY(700px);
+    /* animation: MPAnimation 1.2s forwards; */
     z-index: -10;
 }
 

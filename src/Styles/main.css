@@ -2,6 +2,7 @@
 
 
 @import url(mainpage.css);
+@import url(about.css);
 @import url(navbar.css);
 @import url(keyframes.css);
 
@@ -29,4 +30,5 @@ html{
 
 body{
     background-color: var(--light);
+    overflow-x: hidden;
 }
