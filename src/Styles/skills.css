@@ -1,0 +1,49 @@
+
+.SkillPart{
+    padding-bottom:3rem !important;
+}
+
+
+.Skill-Items{
+    margin-top: 5rem !important;
+}
+
+.SkillItem{
+    width: 13rem;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    position: relative;
+    transition: all .4s;
+    border-radius: 4px;
+    transition: all .4s;
+}
+
+.SkillItem-Hover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--h-primary);
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s !important;
+    z-index: 100;
+}
+.SH-text{
+    color: #fff !important;
+    cursor:default;
+}
+
+.SkillItem:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px 0 rgba(129, 46, 230,.7);
+}
+
+
+.SkillItem:hover .SkillItem-Hover{
+    opacity:1;
+}

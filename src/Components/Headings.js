@@ -31,6 +31,14 @@ export const Midh4 = styled.h4`
 `
 
 
+export const Lighth4 = styled.h4`
+
+    font-size: 25px;
+    font-weight: 300;
+    color: ${props => props.color === "purple" ? "#812EE6" : "black"};
+`
+
+
 
 // H5 Design System
 
@@ -39,6 +47,13 @@ export const Lighth5 = styled.h5`
     font-size:20px;
     color:black;
     font-weight:300;
+`
+
+export const Midh5 = styled.h5`
+
+    font-size:20px;
+    color:black;
+    font-weight:500;
 `
 
 

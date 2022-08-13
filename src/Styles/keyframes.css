@@ -1,12 +1,9 @@
-
-/* 
-
-@keyframes MPAnimation{
+@keyframes SkillItem {
     from{
-        transform: translateY(700px);
+        display: none;
     }
 
     to{
-        transform: translateY(0);
+        display: flex;
     }
-} */
+}
