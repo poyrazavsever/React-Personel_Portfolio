@@ -6,6 +6,8 @@
 @import url(navbar.css);
 @import url(keyframes.css);
 @import url(skills.css);
+@import url(portfolio.css);
+
 
 
 
@@ -38,7 +40,7 @@ body{
 }
 
 .MainTitle{
-    margin-bottom:2.4rem;
+    margin-bottom:8rem;
 }
 
 .Mt-Top{

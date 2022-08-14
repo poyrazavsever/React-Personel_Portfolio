@@ -25,8 +25,9 @@ export const GridContainer = styled.div`
     margin: auto;
     display: grid;
     row-gap: 50px;
+    column-gap: 50px;
     grid-template-columns: auto auto auto auto; ;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto;
     justify-content: space-around;
 
 `

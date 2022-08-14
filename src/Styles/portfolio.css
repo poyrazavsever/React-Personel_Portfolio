@@ -1,0 +1,73 @@
+.repo-item{
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    width: auto;
+    background-color: var(--primary);
+    position: relative;
+}
+
+.repo-item:hover .ri-hover{
+    opacity: 1;
+}
+
+.repo-item:hover .ri-top{
+    opacity: 0;
+}
+
+.ri-top{
+    display: block;
+    text-decoration: none;
+    width:inherit;
+    z-index: 100;
+    cursor: pointer;
+    padding: 1.2rem 2.4rem;
+}
+
+.ri-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #4d1c8a;
+    opacity: 0;
+    transition: all .4s ease-in;
+}
+
+.repo-desc{
+    color:#fff !important;
+    font-size: 1.3rem !important;
+}
+
+.repo-name{
+    color:#ffff !important;
+    padding-left: 2rem;
+}
+
+
+.PortfolioPage{
+    /* margin-top: 10rem; */
+    padding-top:3rem;
+    height: 100vh;
+}
+
+
+.My-Repos{
+    width: 932px;
+    margin: auto;
+    display: grid;
+    row-gap: 30px;
+    column-gap: 10px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+}

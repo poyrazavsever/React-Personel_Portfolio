@@ -4,6 +4,7 @@ import Mainpage from "./Components/MainPage/Mainpage";
 import SocialMedia from "./Components/SocialMedia";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -16,8 +17,12 @@ function App() {
 
       <Skills />
  
+      <Portfolio />
+
       <Navbar />
-     
+
+
+      <div style={{height:500}}></div>
 
     </>
   );

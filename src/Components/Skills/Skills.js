@@ -12,9 +12,9 @@ function Skills() {
 
         <GridContainer className='Skill-Items'>
             
-            <SkillItem language="İcon-Set/html5.svg" name="Html5"/>
+            <SkillItem language="İcon-Set/html5.svg" name="HTML 5"/>
 
-            <SkillItem language="İcon-Set/css3.svg" name="Css3"/>
+            <SkillItem language="İcon-Set/css3.svg" name="CSS 3"/>
 
             <SkillItem language ="İcon-Set/javascript.svg" name = "Javascript"/>
 
