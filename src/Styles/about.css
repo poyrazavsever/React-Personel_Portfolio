@@ -1,6 +1,6 @@
 
 .About-Left{
-    margin-left: 2rem;
+    margin-right: 8rem !important;
 }
 
 .about-list{
@@ -21,15 +21,30 @@
 
 .about-icon{
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .ai-right{
     display: inline-block;
 }
 
+.ai-title{
+    word-wrap: 5px;
+}
+
+.ai-text{
+    word-wrap: 3px;
+    line-height: 20px !important;
+    padding-top: 2rem;
+}
+
 
 .AboutPage{
-    padding-top: 3rem;
+    padding-top:5rem;
     height: 100vh;
+    background-color: var(--text)
+}
+
+.About-Right{
+    width: 70% !important;
 }

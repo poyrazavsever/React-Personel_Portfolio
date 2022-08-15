@@ -8,9 +8,13 @@ function SocialMedia() {
     <>
     
     <ul className="social-media">
+
+        <li>
+            <Icon src="Svg/Main-logo-sm-2.svg" />
+        </li>
         
         <li className="social-item">
-            <a href="#">
+            <a href="https://www.instagram.com/p.avsever/" target="_blank">
                 <Icon src="İcon-Set/instagram.svg" />
             </a>
         </li>

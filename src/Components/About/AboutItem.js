@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon } from "../MainStyle"
-import { Midh4, Lightbody} from "../Headings"
+import { Midh5, Lightbody2} from "../Headings"
 
 function AboutItem({icon, title, text}) {
   return (
@@ -8,8 +8,8 @@ function AboutItem({icon, title, text}) {
         <Icon src={icon} className="about-icon"/>
 
         <div className="ai-right">
-            <Midh4 color='purple' className='ai-title'>{title}</Midh4>
-            <Lightbody className='ai-text'>{text}</Lightbody>
+            <Midh5 color='primary' className='ai-title'>{title}</Midh5>
+            <Lightbody2 className='ai-text'>{text}</Lightbody2>
         </div>
     </li>
   )

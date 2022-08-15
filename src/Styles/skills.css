@@ -1,6 +1,6 @@
 
 .SkillsPart{
-    padding-top:3rem !important;
+    padding-top:5rem !important;
     height: 100vh;
 }
 
@@ -41,7 +41,7 @@
 
 .SkillItem:hover{
     transform: translateY(-8px);
-    box-shadow: 0 10px 15px 0 rgba(129, 46, 230,.7);
+    box-shadow: 0 5px 10px 0 var(--h-secondary);
 }
 
 

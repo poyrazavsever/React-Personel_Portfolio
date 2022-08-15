@@ -6,10 +6,7 @@
     justify-content: space-around;
     /* animation: MPAnimation 1.2s forwards; */
     z-index: -10;
-}
-
-#MainPhoto{
-    width: 300px;
+    padding-bottom: 10rem;
 }
 
 #MainPageLeft{
@@ -31,12 +28,57 @@
 }
 
 .social-item{
-    transition: all .4s;
+    transition: all .6s;
     margin: .4rem 0;
     display: inline-block;
     padding: .5rem;
 }
 
 .social-item:hover{
-    transform: translateX(-10px);
+    transform: rotate(360deg);
 }
+
+
+.text-part{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+#MainPhoto{
+    width: 400px;
+    transition: all .3s;
+}
+
+
+#MainPhoto:hover{
+    transform: scale(1.2);
+}
+
+.text-animation{
+    margin-left: 32px;
+}
+
+.text-animation .text{
+    position: relative;
+    color: var(--primary);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.text.sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:var(--dark);
+    border-left: 2px solid var(--light);
+    animation: TextAnimation 4s steps(12) infinite;
+}
+
+
+

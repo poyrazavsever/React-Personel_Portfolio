@@ -92,7 +92,7 @@ function Navbar() {
                     <div className="indicator"></div>
                 </ul>
                 <div className="otherlinks">
-                    <img src="İcon-Set/moon.svg" alt="changeMode" className="otherLink"/>
+                    <img src="İcon-Set/sun.svg" alt="changeMode" className="otherLink"/>
 
                     <img src="İcon-Set/united.svg" alt="changeMode" className="otherLink"/>
                 </div>

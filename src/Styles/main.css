@@ -24,18 +24,28 @@ html{
 }
 
 :root {
-    --primary:#812EE6;
+    --primary:#F7CCAC;
+    --secondary:#C69B7B;
+    --dark:#3A3845;
+    --light:#FEF7FF;
+    --text:#1d1c23;
+    --h-primary:#ad8f78;
+    --h-secondary:#8b6d56;
+    --tert:#826F66;
+
+/* 
+    --primary:#F7CCAC;
     --secondary:#9E88B2;
     --dark:#201926;
     --light:#FEF7FF;
     --text:#0E0B11;
     --h-primary:#5614A6;
     --h-secondary:#7F5B9F;
-    --tert:#1A1A1A;
+    --tert:#1A1A1A; */
 }
 
 body{
-    background-color: var(--light);
+    background-color: var(--dark);
     overflow-x: hidden;
 }
 
@@ -47,6 +57,7 @@ body{
     font-size:48px;
     font-weight: 500;
     text-align: center;
+    color: #ffff;
 }
 
 .Mt-Top span{
@@ -59,4 +70,32 @@ body{
     font-weight: 300;
     color: var(--secondary);
     text-align: center;
+}
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
+
+::-webkit-scrollbar {
+	width: 12px; /*genislik 10px olsun*/
+	background-color:#61606a;
+    transition: all .2s; /*scrollbar arkaplan renk*/
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--light); /*scrollbar renk*/
+	border-radius:20px; /*oval olsun*/
+}
+::-webkit-scrollbar-thumb:hover { /*tiklandiginda*/
+	background-color: #7d7d7d;
 }

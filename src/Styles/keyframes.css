@@ -7,3 +7,34 @@
         display: flex;
     }
 }
+
+@keyframes PhotoAnimation {
+    0%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-10px);
+    }
+
+    50%{
+        transform: translateX(-20px);
+    }
+    
+    80%{
+        transform: translateX(10px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes TextAnimation {
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}

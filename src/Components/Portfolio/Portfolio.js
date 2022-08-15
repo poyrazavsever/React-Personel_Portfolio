@@ -1,17 +1,25 @@
 import React from 'react'
 import Repos from './Repos'
 import MainTitle from "../MainTitle"
+import { FlexContainer } from "../MainStyle"
 
 function Portfolio() {
     return (
+
         <div className='PortfolioPage' id='portfolio'>
             <MainTitle mainl = "My" mainr = "Portfolio" mainb = "Projects I Developed" /> 
         
-            {/* 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 */}
+            <FlexContainer>
 
-            <Repos />
-                
+                <Repos />
+
+
+                <img src="Images/Portfolio-Image.png" alt="Portfolio Image" className='port-img'/>
+                        
+            </FlexContainer>
         </div>
+
+
   )
 }
 

@@ -10,10 +10,10 @@ export const BtnIcon = styled.img`
 
 export const FlexContainer = styled.div`
 
-    width: 932px;
+    width: 1048px;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
 
     
@@ -21,14 +21,14 @@ export const FlexContainer = styled.div`
 
 
 export const GridContainer = styled.div`
-    width: 932px;
+    width: 1048px;
     margin: auto;
     display: grid;
-    row-gap: 50px;
-    column-gap: 50px;
-    grid-template-columns: auto auto auto auto; ;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-columns: auto auto auto auto auto; ;
     grid-template-rows: auto auto auto;
-    justify-content: space-around;
+    justify-content:center;
 
 `
 

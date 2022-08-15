@@ -1,17 +1,17 @@
 import React from 'react'
-import { Lighth5, Lightbody } from "../Headings"
+import { Lightbody } from "../Headings"
 
-function RepoItem({name, link, desc}) {
+function RepoItem({name, link, date}) {
   return (
 
     <div className="repo-item">
 
         <a href={link} target="_blank" className='ri-top'>
-            <Lighth5 className='repo-name'>{name}</Lighth5>
+            <Lightbody className='repo-name'>{name}</Lightbody>
         </a>
 
-        <div className="ri-hover">
-          <Lightbody className='repo-desc'>{desc}</Lightbody>
+        <div className="ri-bottom">
+          <Lightbody className='repo-date'>{date}</Lightbody>
         </div>
 
     </div>

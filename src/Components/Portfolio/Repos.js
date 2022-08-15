@@ -23,11 +23,7 @@ function Repos() {
           !repos ?
             <h1>Loading...</h1>
             :
-            repos.map((repo, index) =><RepoItem name={repo.name} link={repo.clone_url} desc={repo.description || "Review"} key={index}/>)
-        }
-
-        {/* created_at: "2022-05-29T09:18:01Z" 
-            description*/
+            repos.map((repo, index) =><RepoItem name={repo.name} link={repo.clone_url} date={repo.created_at.split("-")[0]} key={index}/>)
         }
 
         
