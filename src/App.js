@@ -5,6 +5,9 @@ import SocialMedia from "./Components/SocialMedia";
 import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import Contact from "./Components/Contact/Contact"
+
+
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
@@ -31,9 +34,7 @@ function App() {
       <SocialMedia />
       <Mainpage />
 
-      <div className="reveal">
-        <About />    
-      </div>
+      <About/>    
 
       <div className="reveal">   
         <Skills /> 
@@ -43,6 +44,11 @@ function App() {
         <Portfolio /> 
       </div>
 
+      <div className="reveal">
+        <Contact />
+      </div>
+
+ 
       <Navbar />
 
 

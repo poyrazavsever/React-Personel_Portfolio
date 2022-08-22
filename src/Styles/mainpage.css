@@ -5,8 +5,8 @@
     margin: auto;
     justify-content: space-around;
     /* animation: MPAnimation 1.2s forwards; */
-    z-index: -10;
     padding-bottom: 10rem;
+    background:var(--linear-bg);
 }
 
 #MainPageLeft{
@@ -63,22 +63,99 @@
 
 .text-animation .text{
     position: relative;
-    color: var(--primary);
+    color: var(--secondary);
     font-size: 25px;
     font-weight: 400;
 }
 
-.text.sec-text::before{
-    content: "";
+
+.anm-contact-btn span{
     position: absolute;
+    display: block;
+}
+
+.anm-contact-btn span:nth-child(1){
     top: 0;
-    left: 0;
-    height: 100%;
+    left: -100%;
     width: 100%;
-    background-color:var(--dark);
-    border-left: 2px solid var(--light);
-    animation: TextAnimation 4s steps(12) infinite;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--secondary));
+}
+
+.anm-contact-btn:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
 }
 
 
+.anm-contact-btn span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, var(--secondary));
+}
 
+.anm-contact-btn:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: .5s;
+}
+
+
+.anm-contact-btn span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height:100%;
+    background: linear-gradient(180deg, transparent, var(--secondary));
+}
+
+.anm-contact-btn:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: .25s;
+}
+
+
+.anm-contact-btn span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height:100%;
+    background: linear-gradient(360deg, transparent, var(--secondary));
+}
+
+.anm-contact-btn:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: .75s;
+}
+
+.fa-arrow-pointer{
+    padding-left: .8rem !important;
+}
+
+
+.mp-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/321/515/690/black-and-white-city-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: 1;
+    opacity: .05;
+}
+
+
+.mp-text{
+    z-index: 10 !important;
+}
+
+
+.mp-text{
+    width: 80%;
+}

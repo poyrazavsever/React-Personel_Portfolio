@@ -33,18 +33,22 @@
 }
 
 .ai-text{
-    word-wrap: 3px;
-    line-height: 20px !important;
+    word-wrap: 4px;
+    line-height: 25px !important;
     padding-top: 2rem;
 }
 
 
 .AboutPage{
-    padding-top:5rem;
+    padding-top:3rem;
     height: 100vh;
     background-color: var(--text)
 }
 
 .About-Right{
-    width: 70% !important;
+    width: 50% !important;
+}
+
+.flexcontainer{
+    justify-content: space-between !important;
 }

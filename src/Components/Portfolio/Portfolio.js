@@ -7,16 +7,19 @@ function Portfolio() {
     return (
 
         <div className='PortfolioPage' id='portfolio'>
-            <MainTitle mainl = "My" mainr = "Portfolio" mainb = "Projects I Developed" /> 
-        
-            <FlexContainer>
 
-                <Repos />
+            <div className="reveal">
+                <MainTitle mainl = "My" mainr = "Portfolio" mainb = "Projects I Developed" /> 
+            
+                <FlexContainer>
+
+                    <Repos />
 
 
-                <img src="Images/Portfolio-Image.png" alt="Portfolio Image" className='port-img'/>
-                        
-            </FlexContainer>
+                    <img src="Images/Portfolio-Image.png" alt="Portfolio Image" className='port-img'/>
+                            
+                </FlexContainer>
+            </div>
         </div>
 
 

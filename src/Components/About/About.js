@@ -7,19 +7,18 @@ import MainTitle from "../MainTitle"
 function About() {
   return (
     <section className="AboutPage" id='about'>
-        
+
+      <div className="reveal" >
         <MainTitle mainl = "About" mainr = "Me" mainb = "My Introduction"> </MainTitle> 
 
-        <FlexContainer>
+        <FlexContainer className='flexcontainer'>
 
           <AboutLeft />
 
           <AboutRight />
 
         </FlexContainer>
-        
-
-        <br /><br /><br /><br /><br /><br /><br /><br />
+      </div>
 
     </section>
   )

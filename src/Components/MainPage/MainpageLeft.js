@@ -1,7 +1,6 @@
 import React from 'react'
-import { Lighth1, Lighth5, Lightbody, SpanPrimary } from "../Headings"
-import { BtnIcon, Icon } from "../MainStyle"
-import { Btn } from "../Buttons"
+import { Lighth1, Lightbody, SpanPrimary } from "../Headings"
+import { AnimationBtn } from "../Buttons"
 import TextAnimation from './TextAnimation'
 
 function MainpageLeft() {
@@ -14,12 +13,15 @@ function MainpageLeft() {
             
             <TextAnimation />
 
-            <Lightbody style = {{margin:32}}>I am interested in software. So far, I have developed myself in various technologies. On this site, I will share with you the technologies I have learned and the projects I have developed.</Lightbody>
+            <Lightbody className='mp-text' style = {{margin:32}}>I am interested in software. So far, I have developed myself in various technologies. On this site, I will share with you the technologies I have learned and the projects I have developed.</Lightbody>
 
-            <Btn theme="primary">
-              Contact
-              <BtnIcon src="İcon-Set/interface.svg" alt="btn-contact-ico" />
-            </Btn>
+            <AnimationBtn href="#" className='anm-contact-btn'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              - Contact Me
+            </AnimationBtn>
         </div>
 
     </div>

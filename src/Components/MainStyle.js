@@ -8,20 +8,35 @@ export const BtnIcon = styled.img`
     margin-left:.3rem ;
 `
 
+export const ContactIcon = styled.img`
+    width:25px;
+`
+
 export const FlexContainer = styled.div`
 
-    width: 1048px;
+    width: 1248px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: ${props => props.content === "around"? "space-around" : "space-beetween"} !important;
     align-items:center;
 
     
 `  
 
+export const ContactFC = styled.div`
+
+    width: 1048px;
+    margin: auto;
+    display: flex;
+    justify-content:${props => props.content === "around"? "space-around" : "space-beetween"};
+    align-items:center;
+
+`
+    
+
 
 export const GridContainer = styled.div`
-    width: 1048px;
+    width: 1248px;
     margin: auto;
     display: grid;
     row-gap: 30px;
@@ -36,3 +51,5 @@ export const SkillIcon = styled.img `
 
     width: 65px;
 `
+
+

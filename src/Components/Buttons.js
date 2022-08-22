@@ -22,3 +22,51 @@ export const Btn = styled.button`
 
     ${props => props.theme === "primary" ? `background-color:#F7CCAC;` : `background-color:#C69B7B;` }
 `
+
+
+export const AnimationBtn = styled.a`
+
+    margin: 0 23px;
+    position:relative;
+    display: inline-block;
+    padding:12px 16px;
+    color:var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration:none;
+    font-size:1.2rem;
+    overflow: hidden;
+    transition: .2s;
+
+    &:hover{
+        font-weight:500;
+        color:var(--dark);
+        background: var(--secondary);
+        transition-delay:1s;
+        box-shadow:0 0 5px var(--secondary), 0 0 8px var(--secondary), 0 0 11px var(--secondary) ;
+    }
+`
+
+
+export const AnimationBtn2 = styled.button`
+    position:relative;
+    display: inline-block;
+    padding:12px 16px;
+    color:var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration:none;
+    font-size:1.2rem;
+    overflow: hidden;
+    transition: .2s;
+    border: none;
+    background-color: transparent;
+
+    &:hover{
+        font-weight:500;
+        color:var(--dark);
+        background: var(--secondary);
+        transition-delay:1s;
+        box-shadow:0 0 5px var(--secondary), 0 0 8px var(--secondary), 0 0 11px var(--secondary) ;
+    }
+`
