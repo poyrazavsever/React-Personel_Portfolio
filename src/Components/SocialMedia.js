@@ -20,19 +20,19 @@ function SocialMedia() {
         </li>
 
         <li className="social-item">
-            <a href="#">
+            <a href="https://twitter.com/PoyrazAvsever" target="_blank">
                 <Icon src="İcon-Set/twitter.svg" />
             </a>
         </li>
 
         <li className="social-item">
-            <a href="#">
+            <a href="https://www.youtube.com/channel/UCE5oct1IJPM4mReoYYuGFJw" target="_blank">
                 <Icon src="İcon-Set/youtube.svg" />
             </a>
         </li>
 
         <li className="social-item">
-            <a href="#">
+            <a href="https://github.com/poyrazavsever" target="blank">
                 <Icon src="İcon-Set/github.svg" />
             </a>
         </li>

@@ -21,18 +21,6 @@ export default function ContactSection() {
             <div>
                 <div>
                     <form ref={formRef} onSubmit={handleSubmit} >
-                        {
-                            res && (
-                                res.status ? 
-                                <div >
-                                    {res.msg}
-                                </div>  
-                                :
-                                <div >
-                                    {res.msg}
-                                </div>
-                            )
-                        }
                         <div className='contactForm'>
 
                             <div className="inputBox">
@@ -60,6 +48,18 @@ export default function ContactSection() {
 
                         </div>
                        
+                        {
+                            res && (
+                                res.status ? 
+                                <div className='succsesMsg'>
+                                    {res.msg}
+                                </div>  
+                                :
+                                <div className='dangerMsg'>
+                                    {res.msg}
+                                </div>
+                            )
+                        }
                     </form>
                 </div>
             </div>

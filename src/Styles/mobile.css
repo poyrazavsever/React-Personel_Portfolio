@@ -1,0 +1,153 @@
+@media screen and (max-width: 1200px) {
+    html{
+        font-size: 10px;
+    }
+
+    .port-img{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    
+    .port-img{
+        display: none;
+    }
+
+    #MainPhoto{
+        display: none;
+    }
+
+    #aboutPhoto{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    html{
+        font-size: 8.5px;
+    }
+    #MainPhoto{
+        width: 280px;
+        padding-top: 5rem;
+    }
+
+    .skillGroup{
+        padding-top: 5rem;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        row-gap: 25px;
+        column-gap: 25px;
+    }
+
+    .SkillItem{
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .SH-icon{
+        width: 48px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    html{
+        font-size:7px;
+    }
+
+    .contactForm{
+        padding-top: 7rem;
+    }
+
+    .navigation{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    html{
+        font-size:6.5px;
+    }
+    .SkillItem{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .SH-icon{
+        width: 32px !important;
+    }
+
+
+    .navigation {
+        width:350px;
+    }
+
+
+    .navigation ul{
+        display: flex;
+        width: 250px;
+
+    }
+
+    .navigation ul li {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navigation ul li a .icon{
+        line-height: 25px;
+    }
+
+
+    .navigation ul li a .text{
+        font-size: 1.5rem;
+    }
+
+    .indicator {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navigation ul li:nth-child(1).active ~ .indicator{
+        transform: translateX(calc(50px * 0)) !important;
+    }
+
+
+
+    .navigation ul li:nth-child(2).active ~ .indicator{
+        transform: translateX(calc(50px * 1)) !important;
+    }
+
+
+    .navigation ul li:nth-child(3).active ~ .indicator{
+        transform: translateX(calc(50px * 2)) !important;
+    }
+
+
+    .navigation ul li:nth-child(4).active ~ .indicator{
+        transform: translateX(calc(50px * 3)) !important;
+    }
+
+    .navigation ul li:nth-child(5).active ~ .indicator{
+        transform: translateX(calc(50px * 4)) !important;
+    }
+
+
+    .otherLink{
+        width: 15px;
+    }
+
+    .mainLogo{
+        width: 35px !important;
+    }
+
+}

@@ -61,6 +61,7 @@ export const AnimationBtn2 = styled.button`
     transition: .2s;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 
     &:hover{
         font-weight:500;

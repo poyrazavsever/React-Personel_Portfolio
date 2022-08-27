@@ -2,6 +2,7 @@
 .SkillsPart{
     padding-top:5rem !important;
     height: 100vh;
+    position: relative;
 }
 
 
@@ -87,7 +88,6 @@
 
 .skillGroup{ 
     padding-left: 2rem;
-    width: 50%;
     height: 100%;
     display: grid;
     row-gap: 30px;
@@ -105,4 +105,15 @@
 
 .SH-icon{
     width: 64px !important;
+}
+
+
+.skill-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 10;
 }

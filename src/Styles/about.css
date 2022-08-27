@@ -41,7 +41,7 @@
 
 .AboutPage{
     padding-top:3rem;
-    height: 100vh;
+    height: 100%;
     background-color: var(--text)
 }
 
@@ -50,5 +50,5 @@
 }
 
 .flexcontainer{
-    justify-content: space-between !important;
+    justify-content: space-around !important;
 }

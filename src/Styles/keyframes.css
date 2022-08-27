@@ -41,14 +41,12 @@
 
 
 
-@keyframes SkillAnimation{
+@keyframes CursorAnimation{
     from{
-        transform: translateX(0);
         opacity: 0;
     }
     
     to{
-        transform: translateX(-30px);
         opacity: 1;
     }
 }

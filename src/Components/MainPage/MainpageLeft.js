@@ -15,7 +15,7 @@ function MainpageLeft() {
 
             <Lightbody className='mp-text' style = {{margin:32}}>I am interested in software. So far, I have developed myself in various technologies. On this site, I will share with you the technologies I have learned and the projects I have developed.</Lightbody>
 
-            <AnimationBtn href="#" className='anm-contact-btn'>
+            <AnimationBtn href="#contact" className='anm-contact-btn'>
               <span></span>
               <span></span>
               <span></span>

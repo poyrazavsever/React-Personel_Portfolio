@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-expressions */
-
 import React, { useState } from 'react'
 import MainTitle from "../MainTitle"
 import SkillItem from "./SkillItem"
@@ -74,7 +73,7 @@ function Skills() {
     const filtData = data.filter(dataFilter);
 
     function dataFilter(e) {
-      return e.type == types;
+      return e.type === types;
     }
 
     let map_data = filtData.map((e, index) =>{

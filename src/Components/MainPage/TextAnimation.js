@@ -5,7 +5,7 @@ function TextAnimation() {
   return (
     <div className="text-animation">
         <span className="text sec-text" id="sec-text">
-            & Front-end Developer.
+            & Front-end Developer 
         </span>
     </div>
   )

@@ -112,7 +112,7 @@ export const Lightbody = styled.p`
 
 export const Lightbody2= styled.p`
 
-    font-size:1.4;
+    font-size:1.4rem;
     color:#ffff;
     font-weight:300;
     line-height: 30px;
@@ -132,5 +132,18 @@ export const SpanPrimary = styled.span`
     color:#F7CCAC;
     word-wrap: 5px;
     text-align: left;
+
+`
+
+
+
+export const Reserved = styled.p`
+
+    font-size:1.6rem;
+    color:gray;
+    font-weight:300;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 14rem;
 
 `

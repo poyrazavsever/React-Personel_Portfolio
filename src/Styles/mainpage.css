@@ -49,12 +49,6 @@
 
 #MainPhoto{
     width: 400px;
-    transition: all .3s;
-}
-
-
-#MainPhoto:hover{
-    transform: scale(1.2);
 }
 
 .text-animation{
@@ -158,4 +152,25 @@
 
 .mp-text{
     width: 80%;
+}
+
+
+.succsesMsg{
+    color: #ffff;
+    background-color:#1b8f40;
+    font-size: 1.2rem;
+    padding: 1rem 1.6rem;
+    margin-top: 2rem;
+}
+
+.dangerMsg{
+    color: #0000;
+    background-color:#6e0c0c;
+    font-size: 1.2rem;
+    padding: 1rem 1.6rem;
+    margin-top: 2rem;
+}
+
+#sec-text{
+    margin-right: 1rem;
 }

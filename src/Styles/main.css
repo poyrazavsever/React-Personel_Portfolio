@@ -8,6 +8,7 @@
 @import url(skills.css);
 @import url(portfolio.css);
 @import url(contact.css);
+@import url(mobile.css);
 
 
 
@@ -21,7 +22,6 @@
 
 html{
     scroll-behavior: smooth;
-    font-size: 10px;
 }
 
 :root {
